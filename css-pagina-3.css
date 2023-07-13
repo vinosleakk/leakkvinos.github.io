@@ -1,0 +1,151 @@
+body{
+    font-family: sans-serif;
+    margin: 0;  
+    background-color: #FDE9DD;
+}
+a{
+    text-decoration: none;
+    color:#5C3B21;  
+}
+header{
+    background-color: #EBD9CB;
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo-pagina{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+.imagen{
+    height: 100px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: rgb(36, 207, 88);
+}
+
+
+.titulo-1{
+    color:#5C3B21;  
+}
+p{
+    color:#5C3B21;  
+    
+}
+.caja-1{
+    width: 65%;
+    background-color:  #FDC1B5;
+    border-radius: 25px;
+}
+.texto-1{
+    width: 95%;
+}
+.caja-2{
+    width: 65%;
+    background-color: #FFD6CE;
+    border-radius: 25px;
+    position: relative;
+    right: 210px;
+}
+.caja-3{
+    width: 65%;
+    background-color: #FCC9BF;
+    border-radius: 25px;
+    position: relative;
+    left: 210px;
+}
+.caja-4{
+    width: 65%;
+    background-color: #FDC1B5;
+    border-radius: 25px;
+    position: relative;
+    right: 210px;
+
+}    
+.caja-5{
+    width: 65%;
+    background-color: #FFD6CE;
+    border-radius: 25px;
+    position: relative;
+    left: 210px;
+}
+.caja-6{
+    width: 85%;
+    background-color: #FCC9BF;
+    border-radius: 25px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pie-pagina{
+    width: 100%;
+    background-color:#EBD9CB ;
+  }
+  .pie-pagina .p-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px ; 
+    padding: 45px 0px;
+  }
+  .pie-pagina .p-1 .mes figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pie-pagina .p-1 .mes figure img{
+    width: 200px;
+  }
+  .pie-pagina .p-1 .mes h2{
+    color:#5C3B21;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  .pie-pagina .p-1 .mes p{
+    color:#5C3B21;
+     margin-bottom: 10px;
+  }
+  .pie-pagina .p-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color:#5C3B21;
+    margin-right: 10px;
+    background-color: #EDE5DE;
+    transition: all 300ms ease;
+  }
+  .pie-pagina .p-1 .red-social a:hover{
+    color: white;
+}
